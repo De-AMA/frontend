@@ -39,6 +39,6 @@
     "hh:deploy:rinkeby": "hardhat run scripts/deploy.js --network rinkeby",
     "hh:deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet",
     "hh:run": "hardhat run scripts/deploy.js --network rinkeby",
-    "ipfs:build": "next build && npx ipfs-deploy build/"
+    "ipfs:build": "next build && next export && npx ipfs-deploy out/"
   }
 }
