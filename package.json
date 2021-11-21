@@ -18,6 +18,8 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "@ensdomains/ensjs": "^2.0.1",
+    "@ethersproject/providers": "^5.5.0",
     "@stitches/react": "^1.2.1",
     "add": "^2.0.6",
     "dotenv": "^10.0.0",
@@ -25,10 +27,13 @@
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
+    "swr": "^1.0.1",
     "timeago.js": "^4.0.2",
     "yarn": "^1.22.11",
     "zustand": "^3.5.11"
-   },
+  },
   "scripts": {
     "dev": "next dev",
     "prebuild": "hardhat compile",

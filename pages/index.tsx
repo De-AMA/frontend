@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Layout from '../components/Layout';
 import Questions from '../components/Questions';
 import Skeleton from '../components/Skeleton';
+import NavMenu from '../components/NavMenu';
 import SubmitQuestion from '../components/SubmitQuestion';
 import useAddress from '../hooks/use-address';
 
@@ -11,6 +12,7 @@ export default function Index() {
 
   return (
     <>
+      <NavMenu/>
       <Header />
       {address && (
         <>
